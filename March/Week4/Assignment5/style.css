@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(247, 214, 216);
+    background-image:url('https://i.pinimg.com/originals/c8/bc/6a/c8bc6acc059228b8f654a8c6c090a876.jpg');
+    height: 20vh;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+ .div1 li{
+    display: inline-block;
+  margin-left:  3rem; 
+}
+p{
+    color: rgb(255, 145, 145);
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.div0{
+    background-color: rgb(0, 0, 0);
+    height: 7vh;
+    color: rgb(153, 245, 158);
+    text-align: center;
+    border: 2px solid red;
+}
+.div2{
+color: rgb(255, 221, 108);
+font-size: larger;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ height: 73vh;
+ width:100vh;
+ text-align: center;
+ border: 2px solid rgb(197, 11, 11);
+}
+.div3{
+    color: rgb(255, 221, 108);
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+     height: 73vh;
+     width:100vh;
+     border: 2px solid rgb(197, 11, 11);
+ }
+body{
+    background-image: url('https://thumbs.dreamstime.com/b/various-fragrant-spices-herbs-various-fragrant-spices-herbs-wooden-background-107282636.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   overflow: auto;
+  
+}
+.divmain{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0,0, 0.6);
+    
+}
+.divlast{
+    background-color: rgb(0, 0, 0);
+    height: 7vh;
+    color: rgb(153, 245, 158);
+    text-align: center;
+}

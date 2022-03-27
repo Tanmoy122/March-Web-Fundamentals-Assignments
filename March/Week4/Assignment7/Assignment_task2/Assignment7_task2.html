@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment7_task2</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form>
+        <div>
+            <H1>
+                Fill the Form.
+            </H1>
+            <div>
+                <lebel for="fullname">Name</lebel>
+                <input id="fullname" type="text" placeholder="Enter your name">
+            </div>
+           <div>
+                <lebel for="Email">Email</lebel>
+                <input id="Email" type="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <lebel for="pass">Create Password</lebel>
+                <input id="pass" type="password" placeholder="type your password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            </div>
+            <div>
+                <lebel for="mobile">Mobile number</lebel>
+                <input id="mobile" type="tel" placeholder="Enter your number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </div>
+            <div>
+                <lebel name="gen">Have Passport</lebel>
+                <input name="gen" type="checkbox" placeholder="Enter your number" checked>Yes
+                <input name="gen" type="checkbox" placeholder="Enter your number">No
+            </div>
+
+            <button>Submit</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpaperset.com/w/full/0/3/a/194840.jpg');
+background-repeat: no-repeat;
+ background-size: cover;
+overflow: auto;
+background-color:rgba(0, 0,0, 0.6);
+}
+form{
+    border:2px solid red;
+   padding: 40px;
+   margin: 20px;
+   background-color: azure;
+   text-align: center;
+   width: 400px;
+}
+div{
+    margin: 10px;
+}
