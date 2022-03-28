@@ -44,6 +44,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
  width:100vh;
  text-align: center;
  border: 2px solid rgb(197, 11, 11);
+ 
 }
 .div3{
     color: rgb(255, 221, 108);
@@ -53,6 +54,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
      height: 73vh;
      width:100vh;
      border: 2px solid rgb(197, 11, 11);
+    
  }
 body{
     background-image: url('https://thumbs.dreamstime.com/b/various-fragrant-spices-herbs-various-fragrant-spices-herbs-wooden-background-107282636.jpg');
